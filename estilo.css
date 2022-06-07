@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0pxs;
+}
+html{
+    background-color: rgb(206, 161, 161);
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightcoral;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+li{
+    display: inline; /*Barra de navegación elemento en linea*/
+}
+ul{
+    text-align: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+}
+/*posicion y tamaño del logo de la pagina web*/
+
+.logo{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.main_img{
+    height: 500px;
+    width: 1080px;
+    margin-top: 200px;
+    margin-left: 125px;
+    position: static;
+}
+
+
+    
+    
+
+
+
+.main_p{
+    background-color: blue;
+
+    position: relative;
+    top: 150px;
+
+    
+}
+p{
+    background-color: rgb(206, 161, 161);
+}
+
+.div_medios{
+
+    list-style: none;
+    font-size: 15;
+    display: inline-block;
+    margin: 125px;
+   
+}
+
+.h1_index{
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.body_img{
+    background: url(https://s1.eestatic.com/2019/06/21/viajes/tasmania-viajes-viajes_407971957_126174353_1706x960.jpg);
+
+}
+
+.img_pai{
+    margin-left: 250px;
+}
+
+.img_pa{
+    margin-left: 70px;
+}
+.grid__index{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+}
+    
